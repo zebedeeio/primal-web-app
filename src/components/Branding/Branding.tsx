@@ -3,7 +3,7 @@ import { Component, Show } from 'solid-js';
 import styles from './Branding.module.scss';
 import { useNavigate } from '@solidjs/router';
 import { useIntl } from '@cookbook/solid-intl';
-import { branding } from '../../translations';
+// import { branding } from '../../translations';
 
 const Branding: Component<{ small: boolean, isHome?: boolean }> = (props) => {
   const navigate = useNavigate();
@@ -33,9 +33,9 @@ const Branding: Component<{ small: boolean, isHome?: boolean }> = (props) => {
       >
         <div class={styles.branding}>
           <div class={styles.logo} />
-          <span>
+          {/* <span>
             {intl.formatMessage(branding)}
-          </span>
+          </span> */}
         </div>
       </Show>
     </button>

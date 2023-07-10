@@ -1,16 +1,15 @@
 .branding {
   display: flex;
   align-items: center;
+
   .logo {
     background-image: var(--logo);
     background-size: contain;
-    margin-right: 12px;
-    width: 40px;
-    height: 40px;
+    width: 55px;
+    height: 55px;
   }
 
   span {
-    // margin-right: 12px;
     font-weight: 700;
     font-size: 30px;
     line-height: 30px;
@@ -24,8 +23,8 @@
     background-image: var(--logo);
     background-size: contain;
     margin-right: 0px;
-    width: 36px;
-    height: 36px;
+    width: 35px;
+    height: 35px;
   }
 }
 

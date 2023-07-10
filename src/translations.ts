@@ -75,7 +75,7 @@ export const actions = {
 
 export const branding = {
   id: 'branding',
-  defaultMessage: 'Primal',
+  defaultMessage: 'ZBD',
   description: 'Brand name',
 };
 
@@ -427,7 +427,7 @@ export const placeholders = {
   },
   guestUserGreeting: {
     id: 'placeholders.guestUserGreeting',
-    defaultMessage: 'Welcome to nostr!',
+    defaultMessage: 'Welcome to ZBD!',
     description: 'Header placeholder for guest user',
   },
   noteCallToAction: {
@@ -442,7 +442,7 @@ export const placeholders = {
   },
   welcomeMessage: {
     id: 'placeholders.welcomeMessage',
-    defaultMessage: 'Welcome to nostr!',
+    defaultMessage: 'Welcome to ZBD!',
     description: 'Default welcome message',
   },
   findUser: {

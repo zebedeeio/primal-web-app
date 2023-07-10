@@ -25,6 +25,7 @@ import { sortByRecency, convertToNotes } from "../stores/note";
 import { subscribeTo } from "../sockets";
 import { nip19 } from "nostr-tools";
 
+// TODO: change these
 const recomendedUsers = [
   '82341f882b6eabcd2ba7f1ef90aad961cf074af15b9ef44a09f9d2a8fbfbe6a2', // jack
   'bf2376e17ba4ec269d10fcc996a4746b451152be9031fa48e74553dde5526bce', // carla

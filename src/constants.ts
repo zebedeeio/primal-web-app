@@ -1,6 +1,6 @@
 import { FeedPage, } from "./types/primal";
-import logoFire from './assets/icons/logo_fire.svg';
-import logoIce from './assets/icons/logo_ice.svg';
+import logoFire from './assets/img/zbd/logo.png';
+import logoIce from './assets/img/zbd/logo.png';
 import { MessageDescriptor } from "@cookbook/solid-intl";
 
 export const second = 1000;
@@ -47,6 +47,7 @@ export const themes = [
   },
 ];
 
+// TODO: change these
 export const minKnownProfiles: {"names": Record<string,string>} = {
   "names": {
     "miljan": "d61f3bc5b3eb4400efdae6169a5c17cabf3246b514361de939ce4a1a0da6ef4a",

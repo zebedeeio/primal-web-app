@@ -32,13 +32,13 @@ const Settings: Component = () => {
           {intl.formatMessage(t.title)}
         </div>
       </div>
-      <div class={styles.settingsCaption}>
+      {/* <div class={styles.settingsCaption}>
         {intl.formatMessage(t.theme)}
       </div>
 
       <ThemeChooser />
 
-      <div class={styles.devider}></div>
+      <div class={styles.devider}></div> */}
 
       <div class={styles.settingsCaption}>
         {intl.formatMessage(t.feeds)}

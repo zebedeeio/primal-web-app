@@ -422,7 +422,7 @@ export const placeholders = {
   },
   endOfFeed: {
     id: 'placeholders.endOfFeed',
-    defaultMessage: 'Your reached the end. You are a quick reader',
+    defaultMessage: 'Your reached the end. You are a quick reader!',
     description: 'Message displayed when user reaches the end of the feed',
   },
   guestUserGreeting: {

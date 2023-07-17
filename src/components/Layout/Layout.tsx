@@ -5,11 +5,11 @@ import styles from './Layout.module.scss';
 import { Outlet } from '@solidjs/router';
 import NavMenu from '../NavMenu/NavMenu';
 import ProfileWidget from '../ProfileWidget/ProfileWidget';
+import ZBDTopMenu from '../ZBDTopMenu/ZBDTopMenu';
 import NewNote from '../NewNote/NewNote';
 import { useAccountContext } from '../../contexts/AccountContext';
 import zapSM from '../../assets/lottie/zap_sm.json';
 import zapMD from '../../assets/lottie/zap_md.json';
-
 
 const Layout: Component = () => {
 
@@ -64,43 +64,48 @@ const Layout: Component = () => {
         ></lottie-player>
       </div>
       <div id="modal" class={styles.modal}></div>
-      <div id="container" ref={container} class={styles.container}>
-        <div class={styles.leftColumn}>
-          <div>
-            <div id="branding_holder" class={styles.leftHeader}>
-            </div>
-
-            <div class={styles.leftContent}>
-              <NavMenu />
-            </div>
-
-            <div class={styles.leftFooter}>
-              <ProfileWidget />
-            </div>
-          </div>
+      <div>
+        <div id="zbdHeader" class={styles.zbdHeader}>
+          <ZBDTopMenu />
         </div>
-
-
-        <div class={styles.centerColumn}>
-          <div class={styles.centerContent}>
-            <div id="new_note_input" class={styles.headerFloater}>
-              <NewNote />
-            </div>
-
+        <div id="container" ref={container} class={styles.container}>
+          <div class={styles.leftColumn}>
             <div>
-              <Outlet />
+              <div id="branding_holder" class={styles.leftHeader}>
+              </div>
+
+              <div class={styles.leftContent}>
+                <NavMenu />
+              </div>
+
+              <div class={styles.leftFooter}>
+                <ProfileWidget />
+              </div>
             </div>
           </div>
-        </div>
 
 
-        <div class={styles.rightColumn}>
-          <div class={styles.rightHeader}>
-            <div id="search_section">
+          <div class={styles.centerColumn}>
+            <div class={styles.centerContent}>
+              <div id="new_note_input" class={styles.headerFloater}>
+                <NewNote />
+              </div>
+
+              <div>
+                <Outlet />
+              </div>
             </div>
           </div>
-          <div class={styles.rightContent}>
-            <div id="right_sidebar">
+
+
+          <div class={styles.rightColumn}>
+            <div class={styles.rightHeader}>
+              <div id="search_section">
+              </div>
+            </div>
+            <div class={styles.rightContent}>
+              <div id="right_sidebar">
+              </div>
             </div>
           </div>
         </div>

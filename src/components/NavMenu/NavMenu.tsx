@@ -40,11 +40,11 @@ const NavMenu: Component = () => {
       icon: 'notificationsIcon',
       bubble: () => notifications?.notificationCount || 0,
     },
-    {
-      to: '/downloads',
-      label: intl.formatMessage(t.downloads),
-      icon: 'downloadIcon',
-    },
+    // {
+    //   to: '/downloads',
+    //   label: intl.formatMessage(t.downloads),
+    //   icon: 'downloadIcon',
+    // },
     {
       to: '/settings',
       label: intl.formatMessage(t.settings),

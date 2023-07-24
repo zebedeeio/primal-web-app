@@ -63,8 +63,7 @@ const NavMenu: Component = () => {
         <For each={links}>
           {({ to, label, icon, bubble }) => {
             return <NavLink to={to} label={label} icon={icon} bubble={bubble}/>
-          }
-          }
+          }}
         </For>
       </nav>
       <Show when={account?.hasPublicKey() && !loc.pathname.startsWith('/messages/')}>

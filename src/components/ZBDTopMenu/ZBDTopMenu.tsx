@@ -3,6 +3,7 @@ import { Component, createSignal } from "solid-js";
 import logo from '../../assets/img/zbd/logo-only.svg';
 import menu from '../../assets/icons/align_left.svg';
 import download from '../../assets/icons/download_app.svg';
+import downloadDark from '../../assets/icons/download_app_dark.svg';
 import menuClose from '../../assets/icons/close_menu.svg';
 import styles from "./ZBDTopMenu.module.scss";
 import { useNavigate } from "@solidjs/router";
@@ -25,8 +26,8 @@ const ZBDTopMenu: Component = () => {
             <img src={logo} alt="ZBD Logo" />
           </div>
           <div class={styles.downloadMobileWrapper} onClick={() => window.open('https://zebedee.onelink.me/hcHi/whlv2876')}>
-            <img src={download} alt="ZBD Download" />
-            download ZBD app
+            <img src={downloadDark} alt="ZBD Download" />
+            <span>download ZBD app</span>
           </div>
           <div class={styles.mobileMenuListWrapper}>
             <div class={styles.mobileMenuListItem} style='opacity: 0.5;' onClick={() => {

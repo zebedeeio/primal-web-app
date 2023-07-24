@@ -1,6 +1,5 @@
 .settingsContainer {
   background-color: var(--background-site);
-  padding-inline: 28px;
   min-height: 100vh;
   padding-bottom: 20px;
 }
@@ -58,4 +57,11 @@
   padding: 20px 20px 0 20px;
   border-radius: 5px;
   background: var(--background-card);
+}
+
+@media only screen and (max-width: 1087px) {
+  .settingsContainer {
+    // padding-left: 28px;
+    // padding-right: 28px;
+  }
 }

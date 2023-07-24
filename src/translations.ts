@@ -417,17 +417,17 @@ export const notifications = {
 export const placeholders = {
   comingSoon: {
     id: 'placeholders.comingSoon',
-    defaultMessage: 'Coming soon',
+    defaultMessage: 'coming soon',
     description: 'Placholder text for missing content',
   },
   endOfFeed: {
     id: 'placeholders.endOfFeed',
-    defaultMessage: 'Your reached the end. You are a quick reader!',
+    defaultMessage: 'you reached the end of the feed - damn you zbd a lot!',
     description: 'Message displayed when user reaches the end of the feed',
   },
   guestUserGreeting: {
     id: 'placeholders.guestUserGreeting',
-    defaultMessage: 'Welcome to ZBD!',
+    defaultMessage: 'welcome to ZBD!',
     description: 'Header placeholder for guest user',
   },
   noteCallToAction: {
@@ -442,7 +442,7 @@ export const placeholders = {
   },
   welcomeMessage: {
     id: 'placeholders.welcomeMessage',
-    defaultMessage: 'Welcome to ZBD!',
+    defaultMessage: 'welcome to ZBD!',
     description: 'Default welcome message',
   },
   findUser: {
@@ -462,12 +462,12 @@ export const placeholders = {
   },
   selectFeed: {
     id: 'placeholders.selectFeed',
-    defaultMessage: 'Select feed',
+    defaultMessage: 'select feed',
     description: 'Placeholder for feed selection',
   },
   pageNotFound: {
     id: 'placeholders.pageNotFound',
-    defaultMessage: 'Page not found',
+    defaultMessage: 'page not found',
     description: 'Placholder text for missing page',
   },
 };
@@ -475,43 +475,43 @@ export const placeholders = {
 export const profile = {
   sidebarCaption: {
     id: 'profile.sidebar.caption',
-    defaultMessage: 'Popular posts',
+    defaultMessage: 'popular posts',
     description: 'Caption for the profile page sidebar showing a list of trending notes by the profile',
   },
   sidebarNoNotes: {
     id: 'profile.sidebar.noNotes',
-    defaultMessage: 'No trending posts',
+    defaultMessage: 'no trending posts',
     description: 'Placeholde for profile sidebar when the profile is missing trending notes',
   },
   title: {
     id: 'profile.title',
-    defaultMessage: '{name} - Nostr Profile',
+    defaultMessage: '{name} - profile',
     description: 'Page title for Profile page'
   },
   followsYou: {
     id: 'profile.followsYou',
-    defaultMessage: 'Follows you',
+    defaultMessage: 'follows you',
     description: 'Label indicating that a profile is following your profile',
   },
   jointDate: {
     id: 'profile.joinDate',
-    defaultMessage: 'Joined Nostr on {date}',
+    defaultMessage: 'joined nostr on {date}',
     description: 'Label indicating when the profile joined Nostr (oldest event)',
   },
   stats: {
     follow: {
       id: 'profile.followStats',
-      defaultMessage: 'Following',
+      defaultMessage: 'following',
       description: 'Label for following profile stat',
     },
     followers: {
       id: 'profile.stats.followers',
-      defaultMessage: 'Followers',
+      defaultMessage: 'followers',
       description: 'Label for followers profile stat',
     },
     notes: {
       id: 'profile.stats.notes',
-      defaultMessage: 'Posts',
+      defaultMessage: 'posts',
       description: 'Label for notes profile stat',
     },
   },
@@ -525,7 +525,7 @@ export const search = {
   },
   invalid: {
     id: 'search.invalid',
-    defaultMessage: 'Please enter search term.',
+    defaultMessage: 'please enter search term.',
     description: 'Alert letting the user know that the search term is empty',
   },
   emptyQueryResult: {
@@ -540,12 +540,12 @@ export const search = {
   },
   sidebarCaption: {
     id: 'search.sidebarCaption',
-    defaultMessage: 'Users found',
+    defaultMessage: 'users found',
     description: 'Caption for the search page sidebar showing a list of users',
   },
   feedLabel: {
     id: 'search.feedLabel',
-    defaultMessage: 'Search: {query}',
+    defaultMessage: 'search: {query}',
     description: 'Label for a search results feed',
   },
   title: {
@@ -555,7 +555,7 @@ export const search = {
   },
   noResults: {
     id: 'search.noResults',
-    defaultMessage: 'No results found',
+    defaultMessage: 'no results found',
     description: 'Message shown when no search results were found'
   },
 };

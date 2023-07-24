@@ -19,6 +19,7 @@ const ProfileSidebar: Component<{ notes: PrimalNote[] | undefined, profile: Prim
     <Show when={props.profile}>
       <div class={styles.headingTrending}>
         <div>
+          <div>🔥 &nbsp;</div>
           {intl.formatMessage(t.sidebarCaption)}
         </div>
       </div>

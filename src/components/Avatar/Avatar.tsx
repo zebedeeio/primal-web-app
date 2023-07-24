@@ -1,5 +1,5 @@
 import { Component, createMemo, createSignal, Show } from 'solid-js';
-import defaultAvatar from '../../assets/icons/default_nostrich.svg';
+import defaultAvatar from '../../assets/icons/default_user_pic.svg';
 import { useMediaContext } from '../../contexts/MediaContext';
 import { getMediaUrl } from '../../lib/media';
 import { MediaSize } from '../../types/primal';

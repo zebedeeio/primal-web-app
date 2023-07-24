@@ -23,11 +23,11 @@ const NavMenu: Component = () => {
       label: intl.formatMessage(t.home),
       icon: 'homeIcon',
     },
-    // {
-    //   to: '/explore',
-    //   label: intl.formatMessage(t.explore),
-    //   icon: 'exploreIcon',
-    // },
+    {
+      to: '/explore',
+      label: intl.formatMessage(t.explore),
+      icon: 'exploreIcon',
+    },
     {
       to: '/messages',
       label: intl.formatMessage(t.messages),

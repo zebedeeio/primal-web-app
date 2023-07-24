@@ -64,9 +64,9 @@
 }
 
 .active {
+  opacity: 1;
   p {
     color: var(--active-link);
-    text-decoration: underline;
   }
   div {
     background-color: var(--active-link);
@@ -96,19 +96,28 @@
 }
 
 .inactive {
+  opacity: 0.7;
+  transition: all 0.1s ease-in-out;
+
   p {
     color: var(--inactive-link);
   }
+
   div {
     background-color: var(--inactive-link);
+  }
+
+  &:hover {
+    transition: all 0.1s ease-in-out;
+    opacity: 1;
   }
 }
 
 @media only screen and (max-width: 1300px) {
   .navLink {
     margin-bottom: 22px;
-
     width: fit-content;
+
     div {
       display: inline-block;
     }

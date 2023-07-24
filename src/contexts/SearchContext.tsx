@@ -28,15 +28,17 @@ import { nip19 } from "nostr-tools";
 // TODO: change these
 const recomendedUsers = [
   '82341f882b6eabcd2ba7f1ef90aad961cf074af15b9ef44a09f9d2a8fbfbe6a2', // jack
-  'bf2376e17ba4ec269d10fcc996a4746b451152be9031fa48e74553dde5526bce', // carla
-  'c48e29f04b482cc01ca1f9ef8c86ef8318c059e0e9353235162f080f26e14c11', // walker
-  '85080d3bad70ccdcd7f74c29a44f55bb85cbcd3dd0cbb957da1d215bdb931204', // preston
-  'eab0e756d32b80bcd464f3d844b8040303075a13eabc3599a762c9ac7ab91f4f', // lyn
-  '04c915daefee38317fa734444acee390a8269fe5810b2241e5e6dd343dfbecc9', // odell
-  '472f440f29ef996e92a186b8d320ff180c855903882e59d50de1b8bd5669301e', // marty
-  'e88a691e98d9987c964521dff60025f60700378a4879180dcbbb4a5027850411', // nvk
-  '91c9a5e1a9744114c6fe2d61ae4de82629eaaa0fb52f48288093c7e7e036f832', // rockstar
-  'fa984bd7dbb282f07e16e7ae87b26a2a7b9b90b7246a44771f0cf5ae58018f52', // pablo
+  // '82341f882b6eabcd2ba7f1ef90aad961cf074af15b9ef44a09f9d2a8fbfbe6a2', // preston
+  // '2250f69694c2a43929e77e5de0f6a61ae5e37a1ee6d6a3baef1706ed9901248b', // wavlake
+  // 'd10f938e98e9d20ccd7972fdc61554a875a67008dd6e8b11988b1e2e01f44889', // gesso
+  // '6538925ebfb661f418d8c7d074bee2e8afd778701dd89070c2da936d571e55c3', // fountain
+  // '8c1cc556422beaa4c7b4fed32c458384560762a37629991d278b1f0686a60fcc', // mathg
+  // '59f97730b917e0e4bcbcd65309dbee76bf1d94339ec590256c037f50fdfbfb14', // miss el salvador
+  // 'eab0e756d32b80bcd464f3d844b8040303075a13eabc3599a762c9ac7ab91f4f', // lyn
+  // '11b2d93b26d7e56fb57f0afce0d33bfa7fb35b913e4c0aeb7706464befb9ca97', // mia
+  // '84dee6e676e5bb67b4ad4e042cf70cbd8681155db535942fcc6a0533858a7240', // edward snowden
+  // '6774223d1b19dc15454733ab7559acde1d21fdf3fe9b2652c463c7fadb12c042', // tech crunch
+  // '55f04590674f3648f4cdc9dc8ce32da2a282074cd0b020596ee033d12d385185', // nogood
 ];
 
 export type SearchContextStore = {

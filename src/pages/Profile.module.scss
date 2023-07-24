@@ -8,6 +8,9 @@
 .banner {
   width: 100%;
   height: 214px;
+  border-top-left-radius: 5px;
+  overflow: hidden;
+  border-top-right-radius: 5px;
 
   >img {
     width: 100%;

@@ -14,7 +14,8 @@
   position: relative;
   color: var(--text-secondary);
   text-align: center;
-  margin-top: 80px;
+  max-width: 250px;
+  margin: 80px auto 0 auto;
 }
 
 .normalCentralHeader {
@@ -63,25 +64,25 @@
 
 .newContentNotification {
   position: fixed;
-  top: 42px;
+  top: 20px;
   left: calc(calc(100vw - 1240px) / 2 + 176px + 32px);
   width: 640px;
   z-index: 20;
   display: flex;
   justify-content: center;
 
-  >button {
+  > button {
     display: flex;
     align-items: center;
     justify-content: center;
     width: auto;
     height: 40px;
-    background: var(--brand-gradient);
+    background: var(--brand-1);
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
     border: none;
-    border-radius: 20px;
+    border-radius: 5px;
     padding-block: 0;
     padding-left: 4px;
     margin: 0;

@@ -8,7 +8,7 @@ import styles from "./ZBDTopMenu.module.scss";
 import { useNavigate } from "@solidjs/router";
 
 const ZBDTopMenu: Component = () => {
-  const [showMenu, setShowMenu] = createSignal(true);
+  const [showMenu, setShowMenu] = createSignal(false);
   const navigate = useNavigate();
 
   return (

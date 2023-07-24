@@ -50,7 +50,7 @@ const ZBDTopMenu: Component = () => {
             </div>
             <div class={styles.separator} />
             <div class={styles.mobileMenuListItem} onClick={() => window.open('https://blog.zebedee.io/')}>
-              business api
+              developer api
             </div>
           </div>
         </div>
@@ -89,7 +89,7 @@ const ZBDTopMenu: Component = () => {
       </div>
       <div class={styles.rightSide}>
         <div class={styles.menuItem} onClick={() => window.open('https://zebedee.io')}>
-          business api
+          developer api
         </div>
         <div class={styles.download}>
           <div class={styles.downloadButton} onClick={() => window.open('https://zebedee.onelink.me/hcHi/whlv2876')}>

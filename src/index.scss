@@ -61,27 +61,26 @@
   select {
     background-color: var(--background-site);
   }
-
 }
 
 @mixin sunrise_wave {
-  --brand-1: #FA3C3C;
-  --brand-2: #5B09AD;
-  --brand-3: #5B09AD;
+  --brand-1: #8c6df0;
+  --brand-2: #e43426;
+  --brand-3: #a750a4;
   --brand-gradient: linear-gradient(135deg, var(--brand-1) 0%, var(--brand-2) 100%);
   --brand-gradient-vertical: linear-gradient(180deg, var(--brand-1) 0%, var(--brand-2) 100%);
   --highlight-gradient: linear-gradient(137.63deg, var(--brand-3) 0%, var(--brand-1) 32.3%, var(--brand-2) 100%);
-  --accent-1: #CA079F;
-  --accent-2: #AB268E;
+  --accent-1: #8c6df0;
+  --accent-2: #e43426;
 
   --brand-text: #444444;
-  --background-site: #F5F5F5;
-  --background-card: #FFFFFF;
-  --background-input: #E5E5E5;
-  --background-modal: #F5F5F566;
-  --background-embedded_card: #F5F5F5;
+  --background-site: #f8f8ff;
+  --background-card: #E7EDF8;
+  --background-input: #E7EDF8;
+  --background-modal: #F5F5F5;
+  --background-embedded_card: #f8f8ff;
   --border-embedded-card: #E5E5E5;
-  --text-primary: #111111;
+  --text-primary: #121422;
   --text-secondary: #444444;
   --text-secondary-2: #666666;
   --text-tertiary: #808080;

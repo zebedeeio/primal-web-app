@@ -118,8 +118,11 @@ const ExploreSidebar: Component = () => {
 
   return (
     <>
-      <div class={styles.trendingUsersCaption}>
-        {intl.formatMessage(exploreSidebarCaption)}
+      <div class={styles.trendingUsersHeaderWrapper}>
+        <div>
+          <div>🔥 &nbsp;</div>
+          {intl.formatMessage(exploreSidebarCaption)}
+        </div>
       </div>
       <div class={styles.trendingUsers}>
         <For each={trendingUsers}>

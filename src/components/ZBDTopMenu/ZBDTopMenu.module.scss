@@ -2,26 +2,38 @@
   font-size: 16px;
   padding-right: 20px;
   padding-left: 20px;
+  color: #fff;
+  font-weight: 700;
+  opacity: 0.7;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
 
   &:hover {
-    opacity: 0.7;
+    opacity: 1;
+    transition: all 0.1s ease-in-out;
     cursor: pointer;
   }
 }
 
 .menuItemSelected {
   font-size: 16px;
-  height: 100%;
+  height: calc(100% - 5px);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
   padding-left: 20px;
+  padding-bottom: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  margin-top: 5px;
   padding-right: 20px;
+  margin-right: 5px;
   font-weight: 700;
   border-left: 1px solid #d2d0d0;
   border-right: 1px solid #d2d0d0;
-  background: #eceaea;
+  background: var(--background-site);
 }
 
 .menu {
@@ -45,21 +57,35 @@
   height: 100%;
 }
 
+.rightSide {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .download {
-  border: 1px solid #000;
-  padding: 4px 16px;
-  border-radius: 8px;
-  background-color: #000;
+  border: 1px solid var(--background-site);
+  padding: 8px 16px;
+  border-radius: 5px;
+  background-color: var(--background-site);
   cursor: pointer;
   transition: all 0.1s ease-in-out;
+  
   &:hover {
-    opacity: 0.8;
+    cursor: pointer;
+    opacity: 0.9;
     transition: all 0.1s ease-in-out;
   }
 }
 
 .downloadButton {
   font-size: 14px;
-  color: #fff;
+  color: #242424;
   font-weight: 700;
+}
+
+.logo img {
+  width: 60px;
+  margin-top: -5px;
+  margin-right: 30px;
 }

@@ -60,7 +60,7 @@ export type SettingsContextStore = {
 
 export const initialData = {
   locale: 'en-us',
-  theme: 'sunset',
+  theme: 'sunrise',
   themes,
   availableFeeds: [],
   defaultFeed: defaultFeeds[0],

@@ -83,7 +83,7 @@ const HomeHeader: Component = () => {
         <button class={styles.callToAction} onClick={onShowNewNoteinput}>
           <Avatar
             src={activeUser()?.picture}
-            size="lg"
+            size="md"
           />
 
           <div class={styles.border}>

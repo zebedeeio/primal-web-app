@@ -13,7 +13,10 @@ const PeopleList: Component<{ people: PrimalUser[], label: string}> = (props) =>
 
   return (
     <div id="trending_wrapper" class={styles.stickyWrapper}>
-      <div class={styles.heading}>{props.label}</div>
+      <div class={styles.heading}>
+        <div>👋&nbsp;&nbsp;</div>
+        {props.label}
+      </div>
       <div id="trending_section" class={styles.trendingSection}>
         <For each={people()}>
           {

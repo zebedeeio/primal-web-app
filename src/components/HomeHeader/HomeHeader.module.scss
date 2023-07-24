@@ -94,9 +94,9 @@
 
 .callToAction {
   display: grid;
-  height: 72px;
-  grid-template-columns: 72px 1fr;
-  grid-column-gap: 17px;
+  height: 48px;
+  grid-template-columns: 48px 1fr;
+  grid-column-gap: 7px;
   align-items: center;
   background-color: unset;
   margin: 0px;
@@ -114,8 +114,9 @@
   .border {
     height: 36px;
     padding: 1px;
-    background: var(--brand-gradient);
-    border-radius: 6px;
+    // background: var(--border-embedded-card);
+    background: var(--background-input);
+    border-radius: 5px;
     margin-left: 10px
   }
 
@@ -127,7 +128,7 @@
     border-radius: 6px;
     border: none;
     color: var(--text-tertiary);
-    background-color: var(--background-site);
+    background-color: var(--background-input);
     display: flex;
     align-items: center;
     padding-left: 12px;

@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 16px 1fr;
   grid-column-gap: 15px;
-  border-radius: 22px;
+  border-radius: 4px;
   background-color: var(--background-input);
   width: 300px;
   padding-right: 22px;
@@ -20,7 +20,7 @@
   input {
     height: 36px;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
     padding: 0px 12px;
     margin-bottom: 0px;
@@ -55,7 +55,7 @@
 .searchHolder {
   position: relative;
   width: 300px;
-  padding-top: 26px;
+  padding-top: 8px;
 }
 
 .searchSuggestions {

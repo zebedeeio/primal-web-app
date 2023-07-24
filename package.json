@@ -1,7 +1,7 @@
 {
-  "name": "vite-template-solid",
-  "version": "0.0.0",
-  "description": "",
+  "name": "zbd-social-web",
+  "version": "0.1.0",
+  "description": "ZBD Social on Web",
   "scripts": {
     "start": "vite",
     "dev": "vite",

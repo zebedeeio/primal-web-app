@@ -54,13 +54,17 @@ const Layout: Component = () => {
         <div class="zap_icon_fill"></div>
         <div class="like_icon"></div>
         <div class="like_icon_fill"></div>
+        {/* @ts-ignore */}
         <lottie-player
           src={zapSM}
           speed="1"
-        ></lottie-player>
+          /* @ts-ignore */
+          ></lottie-player>
+          {/* @ts-ignore */}
         <lottie-player
           src={zapMD}
           speed="1"
+          /* @ts-ignore */
         ></lottie-player>
       </div>
       <div id="modal" class={styles.modal}></div>

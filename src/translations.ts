@@ -58,7 +58,7 @@ export const actions = {
   },
   notePostNew: {
     id: 'actions.notePostNew',
-    defaultMessage: 'post',
+    defaultMessage: 'send',
     description: 'Send new note, button label',
   },
   noteReply: {
@@ -227,7 +227,7 @@ export const navBar = {
 export const note = {
   newPreview: {
     id: 'note.newPreview',
-    defaultMessage: 'Note preview',
+    defaultMessage: 'preview',
     description: 'Caption for preview when creating a new note'
   },
   mentionIndication: {
@@ -432,7 +432,7 @@ export const placeholders = {
   },
   noteCallToAction: {
     id: 'placeholders.callToAction.note',
-    defaultMessage: 'say something on nostr...',
+    defaultMessage: 'what are you up to?',
     description: 'Placeholder for new note call-to-action',
   },
   pageWIPTitle: {
@@ -530,12 +530,12 @@ export const search = {
   },
   emptyQueryResult: {
     id: 'search.emptyQueryResult',
-    defaultMessage: 'type to',
+    defaultMessage: 'search ZBD and Nostr',
     description: 'Label shown is search resuls when no term is provided',
   },
   searchNostr: {
     id: 'search.searchNostr',
-    defaultMessage: 'search nostr',
+    defaultMessage: 'user@zbd.gg / npub1234',
     description: 'Label explaining full search action',
   },
   sidebarCaption: {
@@ -563,43 +563,43 @@ export const search = {
 export const settings = {
   title: {
     id: 'settings.title',
-    defaultMessage: 'Settings',
+    defaultMessage: 'settings',
     description: 'Title of the settings page',
   },
   theme: {
     id: 'settings.sections.theme',
-    defaultMessage: 'Theme',
+    defaultMessage: 'theme',
     description: 'Title of the theme section on the settings page',
   },
   feeds: {
     id: 'settings.sections.feeds',
-    defaultMessage: 'Home page feeds',
+    defaultMessage: 'home page feeds',
     description: 'Title of the feeds section on the settings page',
   },
   zaps: {
     id: 'settings.sections.zaps',
-    defaultMessage: 'Zaps',
+    defaultMessage: 'zaps',
     description: 'Title of the zaps section on the settings page',
   },
   notifications: {
     title: {
       id: 'pages.settings.sections.notifications',
-      defaultMessage: 'Notifications',
+      defaultMessage: 'notifications',
       description: 'Title of the notifications section on the settings page',
     },
     core: {
       id: 'settings.sections.notifications.core',
-      defaultMessage: 'Core notifications:',
+      defaultMessage: 'core notifications:',
       description: 'Title of the notification settings sub-section for core notifications',
     },
     yourMentions: {
       id: 'settings.sections.notifications.yourMentions',
-      defaultMessage: 'A post you were mentioned in was:',
+      defaultMessage: 'a post you were mentioned in was:',
       description: 'Title of the notification settings sub-section for posts you were mentioned in',
     },
     yourPostMentions: {
       id: 'settings.sections.notifications.yourPostMentions',
-      defaultMessage: 'A post your post was mentioned in was:',
+      defaultMessage: 'a post your post was mentioned in was:',
       description: 'Title of the notification settings sub-section for posts your post was mentioned in',
     },
   }
@@ -609,7 +609,7 @@ export const scopeDescriptors: Record<string, ScopeDescriptor> = {
   follows: {
     caption: {
       id: 'explore.scopes.follows.caption',
-      defaultMessage: 'Follows',
+      defaultMessage: 'follows',
       description: 'Caption for the follows scope',
     },
     label: {
@@ -626,7 +626,7 @@ export const scopeDescriptors: Record<string, ScopeDescriptor> = {
   tribe: {
     caption: {
       id: 'explore.scopes.tribe.caption',
-      defaultMessage: 'Tribe',
+      defaultMessage: 'tribe',
       description: 'Caption for the tribe scope',
     },
     label: {
@@ -643,7 +643,7 @@ export const scopeDescriptors: Record<string, ScopeDescriptor> = {
   network: {
     caption: {
       id: 'explore.scopes.network.caption',
-      defaultMessage: 'Network',
+      defaultMessage: 'network',
       description: 'Caption for the network scope',
     },
     label: {
@@ -660,7 +660,7 @@ export const scopeDescriptors: Record<string, ScopeDescriptor> = {
   global: {
     caption: {
       id: 'explore.scopes.global.caption',
-      defaultMessage: 'Global',
+      defaultMessage: 'global',
       description: 'Caption for the global scope',
     },
     label: {
@@ -701,14 +701,14 @@ export const timeframeDescriptors: Record<string, MessageDescriptor> = {
 
 export const toastZapFail = {
   id: 'toast.zapFail',
-  defaultMessage: 'We were unable to send this Zap',
+  defaultMessage: 'we were unable to send this Zap',
   description: 'Toast message indicating failed zap',
 };
 
 export const thread = {
   sidebar: {
     id: 'thread.sidebar.title',
-    defaultMessage: 'People in this thread',
+    defaultMessage: 'people in this thread',
     description: 'Title of the Thread page sidebar',
   },
 };
@@ -721,53 +721,53 @@ export const toast = {
   },
   fileTypeUpsupported: {
     id: 'toast.unsupportedFileType',
-    defaultMessage: 'You can only upload images and videos. This file type is not supported.',
+    defaultMessage: 'you can only upload images and videos. This file type is not supported.',
     description: 'Feedback when user tries to upload an unsupported file type',
   },
   noRelays: {
     id: 'toast.noRelays',
-    defaultMessage: 'You need to declare at least one relay to perform this action',
+    defaultMessage: 'you need to declare at least one relay to perform this action',
     description: 'Toast message indicating user has no relays configured',
   },
   noRelaysConnected: {
     id: 'toast.noRelaysConnected',
-    defaultMessage: '"We are trying to connect to your relays. Please try again in a few moments.',
+    defaultMessage: '"we are trying to connect to your relays. please try again in a few moments.',
     description: 'Toast message indicating user is not connected to aany relay',
   },
   noteNostrLinkCoppied: {
     id: 'noteNostrLinkCoppied',
-    defaultMessage: 'Note\'s nostr link copied',
+    defaultMessage: 'note\'s nostr link copied',
     description: 'Confirmation message that the note\'s link has been copied',
   },
   notePrimalLinkCoppied: {
     id: 'notePrimalLinkCoppied',
-    defaultMessage: 'Note\'s Primal link copied',
+    defaultMessage: 'note\'s Primal link copied',
     description: 'Confirmation message that the note\'s link has been copied',
   },
   repostSuccess: {
     id: 'toast.repostSuccess',
-    defaultMessage: 'Reposted successfully',
+    defaultMessage: 'reposted successfully',
     description: 'Toast message indicating successfull repost',
   },
   repostFailed: {
     id: 'toast.repostFailed',
-    defaultMessage: 'Failed to repost',
+    defaultMessage: 'failed to repost',
     description: 'Toast message indicating failed repost',
   },
   zapAsGuest: {
     id: 'toast.zapAsGuest',
-    defaultMessage: 'You must be logged-in to perform a zap',
+    defaultMessage: 'you must be logged-in to perform a zap',
     description: 'Toast message indicating user must be logged-in to perform a zap',
   },
   zapUnavailable: {
     id: 'toast.zapUnavailable',
-    defaultMessage: 'Author of this post cannot be zapped',
+    defaultMessage: 'author of this post cannot be zapped',
     description: 'Toast message indicating user cannot receieve a zap',
   },
 };
 
 export const zapCustomOption = {
   id: 'zap.custom.option',
-  defaultMessage: `Zap {user} `,
+  defaultMessage: `zap {user} `,
   description: 'Caption for custom zap amount modal',
 };

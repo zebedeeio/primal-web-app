@@ -4,8 +4,9 @@
     align-items: center;
     display: flex;
     align-items: center;
+
     button {
-      background: var(--brand-gradient-vertical);
+      background: var(--brand-1);
       border-radius: 6px;
       padding: 0px;
       font-size: 12px;
@@ -32,8 +33,6 @@
     button {
       color: var(--text-secondary);
       background-color: var(--background-card);
-      background: linear-gradient(var(--background-card), var(--background-card)) padding-box,
-                    var(--brand-gradient) border-box;
       border: 1px solid transparent;
     }
   }
@@ -52,6 +51,6 @@
   .small {
     button {
       width: 64px;
-      height: 40px;
+      height: 36px;
     }
   }

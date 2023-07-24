@@ -16,7 +16,6 @@ import { SearchProvider } from './contexts/SearchContext';
 import { MessagesProvider } from './contexts/MessagesContext';
 import { MediaProvider } from './contexts/MediaContext';
 
-
 export const APP_ID = `${Math.floor(Math.random()*10000000000)}`;
 
 const App: Component = () => {

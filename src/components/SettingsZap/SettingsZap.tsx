@@ -39,7 +39,7 @@ const SettingsZap: Component = () => {
     <div class={styles.zapSettings}>
       <div class={styles.defaultZaps}>
         <div class={styles.caption}>
-          Set default zap amount:
+          set default zap amount:
         </div>
         <input
           type='text'
@@ -50,7 +50,7 @@ const SettingsZap: Component = () => {
       </div>
       <div class={styles.customZaps}>
         <div class={styles.caption}>
-          Set custom zap amount presets:
+          set custom zap amount presets:
         </div>
         <div class={styles.zapOptions}>
           <For each={settings?.availableZapOptions}>

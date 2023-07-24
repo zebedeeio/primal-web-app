@@ -154,7 +154,7 @@ const HomeSidebar: Component = () => {
     <div>
       <div class={styles.headingTrending}>
         <div>
-          <div class={styles.flameIcon}></div>
+          <div>🔥 &nbsp;</div>
           {intl.formatMessage({
             id: 'home.sidebar.caption.trending',
             defaultMessage: 'Trending',
@@ -172,7 +172,7 @@ const HomeSidebar: Component = () => {
 
       <div class={styles.headingZapped}>
         <div>
-          <div class={styles.zapIcon}></div>
+          <div>⚡ &nbsp;</div>
           {intl.formatMessage({
             id: 'home.sidebar.caption.mostzapped',
             defaultMessage: 'Most Zapped',

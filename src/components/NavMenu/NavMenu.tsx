@@ -23,11 +23,11 @@ const NavMenu: Component = () => {
       label: intl.formatMessage(t.home),
       icon: 'homeIcon',
     },
-    {
-      to: '/explore',
-      label: intl.formatMessage(t.explore),
-      icon: 'exploreIcon',
-    },
+    // {
+    //   to: '/explore',
+    //   label: intl.formatMessage(t.explore),
+    //   icon: 'exploreIcon',
+    // },
     {
       to: '/messages',
       label: intl.formatMessage(t.messages),
@@ -50,11 +50,11 @@ const NavMenu: Component = () => {
       label: intl.formatMessage(t.settings),
       icon: 'settingsIcon',
     },
-    {
-      to: '/help',
-      label: intl.formatMessage(t.help),
-      icon: 'helpIcon',
-    },
+    // {
+    //   to: '/help',
+    //   label: intl.formatMessage(t.help),
+    //   icon: 'helpIcon',
+    // },
   ];
 
   return (

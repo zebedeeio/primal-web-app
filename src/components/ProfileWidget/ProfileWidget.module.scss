@@ -15,8 +15,7 @@
     width: 146px;
     height: 46px;
     background-color: var(--background-input);
-    background: linear-gradient(var(--background-input), var(--background-input)) padding-box,
-                var(--brand-gradient) border-box;
+    border: 1px solid var(--border-input);
     border-radius: 21px;
     border: 1px solid transparent;
     opacity: 0.5;
@@ -78,7 +77,6 @@
   width: 10px;
   height: 2px;
   vertical-align: middle;
-
   background-color: var(--text-secondary);
   -webkit-mask: url(../../assets/icons/context.svg) no-repeat center;
   mask: url(../../assets/icons/context.svg) no-repeat center;
